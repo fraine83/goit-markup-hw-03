@@ -1,0 +1,356 @@
+:root {
+    --iriscolor: #4d5ae5;
+    --navyblue: #2E2F42;
+    --navcolor: black;
+    --oceancolor: #404bbf;
+    --whitecolor: white;
+    --slatecolor: #434455;
+    --ashwhite: rgb(242, 237, 237);
+    --cloud: #f4f4fd;
+}
+
+/*CSS RESET*/
+* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/*END OF CSS RESET*/
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--slatecolor);
+    font-size: 16px;
+}
+
+.page-header {
+    background-color: var(--cloud);
+    height: 72px;
+    width: 1440px;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    border-bottom: .05px solid var(--ashwhite);
+}
+.container .menu {
+    margin: auto;
+}
+.logo-link {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: var(--iriscolor);
+}
+
+.studio {
+    color: var(--navyblue);
+}
+
+.nav-menu {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 40px;
+    margin-left: 100px;
+    margin-right: 302px; 
+    text-decoration: none;
+   
+}
+.navigation {
+    margin: 76px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.contacts-menu {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 24px;
+    text-decoration: none;
+       
+}
+.page {
+    text-decoration: none;
+}
+.contact {
+    text-decoration: none;
+}
+    
+.list{
+    list-style-type: none;
+    
+}
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .contact:hover,
+.contacts-menu .contact .link:focus {
+    color: var(--iriscolor);
+}
+.bg-hero {
+    background: var(--navyblue);
+    text-align: center;
+    height: 600px;
+    width: 1440px;
+    margin: auto;
+}
+.hero-title {
+    color: var(--whitecolor);
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    letter-spacing: 1.12px;
+}
+.button {
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.03em;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5px;
+    font-family: inherit;
+    display: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px
+}
+
+.button.primary {
+    background-color: var(--iriscolor);
+    color: var(--whitecolor);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    gap: 10px;
+    position: relative;
+    color: var(--whitecolor);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--oceancolor);
+}
+
+.button.filter {
+    background-color: var(--cloud);
+    color: var(--iriscolor);
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
+    background-color: var(--oceancolor);
+    color: var(--cloud);
+}
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 130px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+
+.benefits {
+    display: inline-flex;
+    width: 280p;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.benefits .description {
+    color: var(--slatecolor);
+    line-height: 1.71;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefits .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--navyblue);
+}
+
+.description.title {
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--slatecolor);
+}
+
+.section-title {
+    text-align: center;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.what-we-do {
+    display: inline-flex;
+    flex-direction: row;
+    width: 280p;
+    gap: 24px;
+    padding-top: 100px;
+    padding-left: 140px;
+    padding-bottom: 120px;
+}
+
+.team {
+    display: inline-flex;
+    gap: 24px;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+.team .name {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+    text-align: center;
+    margin: 20px;
+}
+
+.team .position {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--slatecolor);
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.item {
+    background-color: var(--ashwhite);
+    margin: 2px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px;
+}
+
+.section.bg-team {
+    background-color: var(--cloud);
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.page-footer.bg-footer {
+    background-color: var(--navyblue);
+    width: 1440px;
+    padding: 30px;
+    flex-shrink: 0;
+    height: 250px;
+    margin: auto;
+}
+.logo-link .footer {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.studio-footer {
+    color: var(--cloud);
+}
+
+.footer-description {
+    color: var(--cloud);
+    padding-top: 20px;
+}
+.project {
+    text-decoration: none;
+}
+.project-card {
+    border: 1px solid var(--cloud);
+    height: 420px;
+    margin-bottom: 48px;
+}
+
+.projects {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    padding-bottom: 250px;
+}
+.container {
+    width: 1440px;    
+}
+.section {
+    width: 1440px;
+    margin: auto;
+}
+
+.project .name {
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding: 0px 16px;
+
+    
+}
+.project .type {
+    color: var(--slatecolor);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.47;
+    padding: 0px 16px;
+}
+.substrate {
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+   
