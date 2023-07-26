@@ -94,7 +94,7 @@ body {
 }
 .contacts-menu {
     gap: 30px;
-    margin: auto;
+    margin-left: 336px;
 } 
 .nav-menu .page:hover,
 .nav-menu .page:focus,
