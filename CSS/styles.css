@@ -50,7 +50,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--slatecolor);
     font-size: 16px;
-    background-color: ver(--whitecolor);
+    background-color: var(--whitecolor);
 }
 
 .page-header {
@@ -139,6 +139,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.05em;
     font-weight: 500;
+    padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
 }
 
